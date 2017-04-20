@@ -39,7 +39,7 @@ This application will run in two profiles
 ```
 1.local
 2.produ
-Run in local(H2 DB)       ----------> java -jar target/SpringBootCRUDApplicationExample-1.0.0.jar --spring.profiles.active=prod
+Run in local(H2 DB)       ----------> java -jar target/SpringBootCRUDApplicationExample-1.0.0.jar --spring.profiles.active=local
 Run in production (MYSQL) ----------> java -jar target/SpringBootCRUDApplicationExample-1.0.0.jar --spring.profiles.active=prod
 ```
 
